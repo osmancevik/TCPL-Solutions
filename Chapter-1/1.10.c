@@ -13,8 +13,9 @@ int main() {
     } else if (c == '\b') {
       printf("\\b");
     } else if (c == '\\') {
-      printf("\\");
+      printf("\\\\");
+    } else {
+      putchar(c);
     }
-    putchar(c);
   }
 }

@@ -1,4 +1,4 @@
-// Exercise 1-13. Write a program to print a histogram of the lengths of words
+// Exercise 3-13. Write a program to print a histogram of the lengths of words
 // in its input. It is easy to draw the histogram with the bars horizontal; a
 // vertical orientation is more challenging.
 
@@ -19,6 +19,7 @@ int main() {
       wordLength++;
     }
   }
+
   for (int i = 0; i < 10; i++) {
     for (int j = 0; j < wordLengthHolder[i]; j++) {
       putchar('#');
